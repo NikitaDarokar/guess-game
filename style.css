@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.lastResult{
+    color: white;
+    padding: 3px;
+}
+
+#guessField{
+    width: 280px;
+    border-radius: 5px;
+    border: 1px blue solid;
+}
+
+.guessSubmit{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1px;
+    border: none;
+    box-shadow: none;
+    background-color: orange;
+    color: darkslateblue;
+    padding: 4px;
+
+}
